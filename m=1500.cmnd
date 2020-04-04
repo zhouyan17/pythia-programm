@@ -1,0 +1,15 @@
+Beams:eCM = 13000.
+!Beams:idA = 2212
+!Beams:idB = 2212
+ExcitedFermion:dg2dStar = on
+ExcitedFermion:ug2uStar = on
+4000001:m0 = 1500
+4000002:m0 = 1500
+ExcitedFermion:Lambda = 1500
+ExcitedFermion:coupF = 1.0
+ExcitedFermion:coupFprime = 1.0
+ExcitedFermion:coupFcol = 1.0
+4000001:onMode = off
+4000002:onMode = off
+4000001:0:onMode = on
+4000002:0:onMode = on
