@@ -23,19 +23,19 @@ fastjet::JetDefinition jetDef( fastjet::antikt_algorithm, 0.4, fastjet::E_scheme
 std::vector <fastjet::PseudoJet> fjInputs;
     
 // Histograms of parton level
-TH1F *HMassR = new TH1F("HMassR","Mass of new resonances", 100, 0., 1000);
-TH1F *HptR = new TH1F("HptR","pT of new resonances", 100, 0., 1000);
-TH1F *HptD1 = new TH1F("HptD1","pT of daughter 1", 100, 0., 1000);
-TH1F *HptD2 = new TH1F("HptD2","pT of daughter 2", 100, 0., 1000);
+TH1F *HMassR = new TH1F("HMassR","Mass of new resonances", 100, 0., 3500);
+TH1F *HptR = new TH1F("HptR","pT of new resonances", 100, 0., 3500);
+TH1F *HptD1 = new TH1F("HptD1","pT of daughter 1", 100, 0., 3500);
+TH1F *HptD2 = new TH1F("HptD2","pT of daughter 2", 100, 0., 3500);
 TH1F *HetaR = new TH1F("HetaR","eta of new resonances", 100, 0., 2.);
 TH1F *HetaD1 = new TH1F("HetaD1","eta of daughter 1", 100, 0., 2.);
 TH1F *HetaD2 = new TH1F("HetaD2","eta of daughter 2", 100, 0., 2.);
 
 // Histograms of particle level
-TH1F *HMassC = new TH1F("HMassC","Mass of dijet candidates", 100, 0., 1000);
-TH1F *HptC = new TH1F("HptC","pT of dijet candidates", 100, 0., 1000);
-TH1F *HptJ1 = new TH1F("HptJ1","pT of leading jets", 100, 0, 1000);
-TH1F *HptJ2 = new TH1F("HptJ2","pT of sub leading jets", 100, 0, 1000);
+TH1F *HMassC = new TH1F("HMassC","Mass of dijet candidates", 100, 0., 3500);
+TH1F *HptC = new TH1F("HptC","pT of dijet candidates", 100, 0., 3500);
+TH1F *HptJ1 = new TH1F("HptJ1","pT of leading jets", 100, 0, 3500);
+TH1F *HptJ2 = new TH1F("HptJ2","pT of sub leading jets", 100, 0, 3500);
 TH1F *HetaC = new TH1F("HetaC","eta of dijet candidates", 100, 0., 2.);
 TH1F *HetaJ1 = new TH1F("HetaJ1","eta of leading jets", 100, 0., 2.);
 TH1F *HetaJ2 = new TH1F("HetaJ2","eta of sub leading jets", 100, 0., 2.);
